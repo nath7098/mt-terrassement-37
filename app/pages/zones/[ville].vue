@@ -11,9 +11,9 @@ if (!ville) {
 
 const nearbyVilles = villeList.filter(v => ville.villesProches.includes(v.slug))
 
-const SITE_URL = 'https://terrassement.td-locationbenne37.fr'
+const SITE_URL = 'https://mt-terrassement37.fr'
 const canonicalUrl = `${SITE_URL}/zones/${slug}`
-const title = `Terrassement ${ville.nom} (${ville.codePostal}) — TD Terrassement 37 | Excavation & Nivellement`
+const title = `Terrassement ${ville.nom} (${ville.codePostal}) — MT Terrassement 37 | Excavation & Nivellement`
 const description = ville.metaDescription
 
 useSeoMeta({
@@ -42,11 +42,11 @@ useHead({
         'description': `Services de terrassement, excavation et nivellement à ${ville.nom} (${ville.codePostal})`,
         'provider': {
           '@type': 'LocalBusiness',
-          'name': 'TD Terrassement 37',
-          'telephone': '+33601370443',
+          'name': 'MT Terrassement 37',
+          'telephone': '+33764467709',
           'address': {
             '@type': 'PostalAddress',
-            'streetAddress': '15 Rue des Rabatteries',
+            'streetAddress': '24 rue des Rabatteries',
             'addressLocality': 'Fondettes',
             'postalCode': '37230',
             'addressCountry': 'FR'
@@ -84,7 +84,7 @@ useHead({
       <div class="max-w-6xl mx-auto px-4">
         <nav
           aria-label="Breadcrumb"
-          class="flex items-center gap-2 text-green-200 text-sm mb-4"
+          class="flex items-center gap-2 text-blue-200 text-sm mb-4"
         >
           <NuxtLink
             to="/"
@@ -105,8 +105,8 @@ useHead({
           <span>{{ ville.nom }}</span>
         </nav>
         <h1 class="text-4xl md:text-5xl font-bold mb-4">
-          Terrassement <span style="color: #C4A35A">{{ ville.displayName }}</span><br>
-          <span class="text-2xl font-normal text-green-100">en {{ ville.departement }}</span>
+          Terrassement <span style="color: #D4884D">{{ ville.displayName }}</span><br>
+          <span class="text-2xl font-normal text-blue-100">en {{ ville.departement }}</span>
         </h1>
         <div class="flex flex-wrap gap-2 mb-6">
           <span class="bg-white/10 rounded-full px-3 py-1 text-sm flex items-center gap-1">
@@ -126,12 +126,12 @@ useHead({
         </div>
         <div class="flex flex-wrap gap-3">
           <a
-            href="tel:+33601370443"
+            href="tel:+33764467709"
             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-white text-sm"
-            style="background-color: #C4A35A"
+            style="background-color: #D4884D"
           >
             <UIcon name="i-lucide-phone" />
-            06 01 37 04 43
+            07 64 46 77 09
           </a>
           <UButton
             to="/contact"
@@ -174,7 +174,7 @@ useHead({
               <h3 class="font-semibold text-stone-800 mb-3 flex items-center gap-2">
                 <UIcon
                   name="i-lucide-map"
-                  style="color: #2D5016"
+                  style="color: #1B3A6B"
                 />
                 Secteurs couverts {{ ville.displayName }}
               </h3>
@@ -191,7 +191,7 @@ useHead({
 
             <AppImage
               src="/images/terrassement.png"
-              :alt="`Terrassement et excavation à ${ville.nom} par TD Terrassement 37`"
+              :alt="`Terrassement et excavation à ${ville.nom} par MT Terrassement 37`"
               aspect-ratio="16/9"
               :rounded="true"
               class="mt-8 mb-2"
@@ -199,22 +199,22 @@ useHead({
 
             <div
               class="mt-6 p-6 rounded-xl text-white"
-              style="background-color: #2D5016"
+              style="background-color: #1B3A6B"
             >
               <h3 class="font-semibold mb-2">
                 Intervention à {{ ville.nom }} — Devis gratuit
               </h3>
-              <p class="text-green-100 text-sm mb-4">
+              <p class="text-blue-100 text-sm mb-4">
                 Vous avez un projet de terrassement {{ ville.displayName }} ? Contactez-nous pour un devis gratuit et personnalisé.
               </p>
               <div class="flex flex-wrap gap-3">
                 <a
-                  href="tel:+33601370443"
+                  href="tel:+33764467709"
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm text-white"
-                  style="background-color: #C4A35A"
+                  style="background-color: #D4884D"
                 >
                   <UIcon name="i-lucide-phone" />
-                  06 01 37 04 43
+                  07 64 46 77 09
                 </a>
                 <UButton
                   to="/contact"
@@ -237,28 +237,28 @@ useHead({
                 <li class="flex items-center gap-2 text-sm text-stone-700">
                   <UIcon
                     name="i-lucide-check"
-                    style="color: #4A7C59"
+                    style="color: #2D6EA4"
                   />
                   Terrassement général
                 </li>
                 <li class="flex items-center gap-2 text-sm text-stone-700">
                   <UIcon
                     name="i-lucide-check"
-                    style="color: #4A7C59"
+                    style="color: #2D6EA4"
                   />
                   Excavation & fouilles
                 </li>
                 <li class="flex items-center gap-2 text-sm text-stone-700">
                   <UIcon
                     name="i-lucide-check"
-                    style="color: #4A7C59"
+                    style="color: #2D6EA4"
                   />
                   Nivellement de terrain
                 </li>
                 <li class="flex items-center gap-2 text-sm text-stone-700">
                   <UIcon
                     name="i-lucide-check"
-                    style="color: #4A7C59"
+                    style="color: #2D6EA4"
                   />
                   Remblaiement & compactage
                 </li>
@@ -267,17 +267,17 @@ useHead({
 
             <div
               class="rounded-xl p-5 text-white"
-              style="background-color: #2D5016"
+              style="background-color: #1B3A6B"
             >
               <h3 class="font-semibold mb-2 flex items-center gap-2">
                 <UIcon name="i-lucide-phone" />
                 Appelez-nous
               </h3>
               <a
-                href="tel:+33601370443"
+                href="tel:+33764467709"
                 class="text-xl font-bold hover:underline block mb-1"
-              >06 01 37 04 43</a>
-              <p class="text-green-100 text-xs">
+              >07 64 46 77 09</a>
+              <p class="text-blue-100 text-xs">
                 Lun–Ven, réponse rapide
               </p>
             </div>
@@ -286,7 +286,7 @@ useHead({
               <h3 class="font-semibold text-stone-800 mb-4 flex items-center gap-2">
                 <UIcon
                   name="i-lucide-info"
-                  style="color: #2D5016"
+                  style="color: #1B3A6B"
                 />
                 Contexte local
               </h3>
@@ -295,7 +295,7 @@ useHead({
                   <UIcon
                     name="i-lucide-layers"
                     class="flex-shrink-0 mt-0.5"
-                    style="color: #8B6914"
+                    style="color: #B05A00"
                   />
                   <span><span class="font-medium">Type de sol :</span> {{ ville.typeSol }}</span>
                 </li>
@@ -303,7 +303,7 @@ useHead({
                   <UIcon
                     name="i-lucide-badge-check"
                     class="flex-shrink-0 mt-0.5"
-                    style="color: #2D5016"
+                    style="color: #1B3A6B"
                   />
                   <span>{{ ville.pointFort }}</span>
                 </li>
@@ -324,7 +324,7 @@ useHead({
                 label="Voir les avis Google"
                 icon="i-simple-icons-google"
                 size="sm"
-                :style="{ backgroundColor: '#C4A35A', color: 'white' }"
+                :style="{ backgroundColor: '#D4884D', color: 'white' }"
               />
             </div>
           </div>
@@ -345,9 +345,9 @@ useHead({
             v-for="v in nearbyVilles"
             :key="v.slug"
             :to="`/zones/${v.slug}`"
-            class="group bg-white border border-stone-100 hover:border-green-300 rounded-xl p-4 transition-all hover:bg-green-50"
+            class="group bg-white border border-stone-100 hover:border-blue-300 rounded-xl p-4 transition-all hover:bg-blue-50"
           >
-            <div class="font-medium text-stone-800 group-hover:text-green-800 text-sm">{{ v.nom }}</div>
+            <div class="font-medium text-stone-800 group-hover:text-blue-800 text-sm">{{ v.nom }}</div>
             <div class="text-xs text-stone-400 mt-0.5">{{ v.codePostal }}</div>
           </NuxtLink>
         </div>
