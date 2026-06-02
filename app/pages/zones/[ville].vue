@@ -52,7 +52,7 @@ useHead({
             'addressCountry': 'FR'
           },
           'url': SITE_URL,
-          'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt', 'https://td-locationbenne37.fr']
+          'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt']
         },
         'areaServed': {
           '@type': 'City',

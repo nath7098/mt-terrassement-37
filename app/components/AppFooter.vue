@@ -93,38 +93,38 @@ const year = new Date().getFullYear()
 
         <div>
           <h3 class="font-semibold text-white mb-4">
-            Partenaire
+            Nos services
           </h3>
-          <p class="text-blue-100 text-sm mb-3">
-            Besoin de louer une benne ? Découvrez notre site partenaire :
-          </p>
-          <UButton
-            to="https://td-locationbenne37.fr"
-            target="_blank"
-            rel="noopener"
-            label="TD Location Benne 37"
-            icon="i-lucide-external-link"
-            size="sm"
-            variant="outline"
-            class="border-white/30 text-white hover:bg-white/10 mb-4"
-          />
-          <div class="mt-4 text-sm text-blue-100">
-            <p class="flex items-center gap-1.5 mb-1">
+          <ul class="space-y-2 text-sm text-blue-100">
+            <li class="flex items-start gap-2">
+              <UIcon
+                name="i-lucide-shovel"
+                class="flex-shrink-0 mt-0.5"
+              />
+              Terrassement général
+            </li>
+            <li class="flex items-start gap-2">
+              <UIcon
+                name="i-lucide-construction"
+                class="flex-shrink-0 mt-0.5"
+              />
+              Excavation & fouilles
+            </li>
+            <li class="flex items-start gap-2">
+              <UIcon
+                name="i-lucide-layers"
+                class="flex-shrink-0 mt-0.5"
+              />
+              Nivellement & remblaiement
+            </li>
+            <li class="flex items-start gap-2 pt-2">
               <UIcon
                 name="i-lucide-map-pin"
-                class="flex-shrink-0"
-              /> Indre-et-Loire (37)
-            </p>
-            <p class="flex items-center gap-1.5">
-              <UIcon
-                name="i-lucide-phone"
-                class="flex-shrink-0"
-              /> <a
-                href="tel:+33764467709"
-                class="hover:text-white transition-colors"
-              >07 64 46 77 09</a>
-            </p>
-          </div>
+                class="flex-shrink-0 mt-0.5"
+              />
+              Indre-et-Loire (37) et environs
+            </li>
+          </ul>
         </div>
       </div>
 

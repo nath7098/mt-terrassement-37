@@ -44,7 +44,7 @@ useHead({
         },
         'serviceArea': { '@type': 'State', 'name': 'Indre-et-Loire' },
         'areaServed': 'Indre-et-Loire',
-        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt', 'https://td-locationbenne37.fr'],
+        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt'],
         'knowsAbout': ['Terrassement', 'Excavation', 'Nivellement', 'Remblaiement'],
         'priceRange': '€€'
       })
@@ -330,28 +330,19 @@ const faq = [
             style="border-color: #D4884D"
           >
             <h2 class="text-2xl font-bold text-stone-900 mb-3">
-              Besoin d'une benne ?
+              Nos avis clients
             </h2>
             <p class="text-stone-600 mb-4">
-              Notre partenaire TD Location Benne 37 assure la livraison et la récupération de bennes dans tout le département.
+              Consultez les avis de nos clients satisfaits sur Google et faites-nous confiance pour votre projet de terrassement.
             </p>
             <div class="flex flex-wrap gap-3">
-              <UButton
-                to="https://td-locationbenne37.fr"
-                target="_blank"
-                rel="noopener"
-                label="TD Location Benne 37"
-                icon="i-lucide-external-link"
-                :style="{ backgroundColor: '#D4884D', color: 'white' }"
-              />
               <UButton
                 to="https://share.google/QKpfCyuEupbTsyRvt"
                 target="_blank"
                 rel="noopener"
                 label="Voir nos avis Google"
                 icon="i-simple-icons-google"
-                variant="outline"
-                :style="{ borderColor: '#D4884D', color: '#B05A00' }"
+                :style="{ backgroundColor: '#D4884D', color: 'white' }"
               />
             </div>
           </div>

@@ -37,7 +37,7 @@ useHead({
           'longitude': 0.6031
         },
         'url': SITE_URL,
-        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt', 'https://td-locationbenne37.fr'],
+        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt'],
         'areaServed': 'Indre-et-Loire',
         'priceRange': '€€'
       })
@@ -59,7 +59,7 @@ useHead({
 const { emailjsPublicKey } = useRuntimeConfig().public
 
 const EMAILJS_SERVICE_ID = 'service_terrassement'
-const EMAILJS_TEMPLATE_ID = 'template_td_benne_37'
+const EMAILJS_TEMPLATE_ID = 'template_mt_terrassement'
 
 const form = reactive({
   lastName: '',
@@ -420,23 +420,6 @@ async function handleSubmit() {
               />
             </div>
 
-            <div class="bg-blue-50 border border-blue-200 rounded-xl p-5">
-              <h3 class="font-semibold text-blue-800 mb-2">
-                Site partenaire
-              </h3>
-              <p class="text-blue-700 text-sm mb-3">
-                Besoin de louer une benne ? Découvrez TD Location Benne 37.
-              </p>
-              <UButton
-                to="https://td-locationbenne37.fr"
-                target="_blank"
-                rel="noopener"
-                label="TD Location Benne 37"
-                icon="i-lucide-external-link"
-                size="sm"
-                :style="{ backgroundColor: '#1B3A6B', color: 'white' }"
-              />
-            </div>
           </div>
         </div>
       </div>
