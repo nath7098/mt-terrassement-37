@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <a
     href="tel:+33764467709"
     class="fixed bottom-5 right-5 z-50 flex items-center gap-2 px-4 py-3 rounded-full text-white font-semibold shadow-xl md:hidden"

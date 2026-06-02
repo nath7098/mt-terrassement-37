@@ -1,4 +1,4 @@
-﻿export interface Ville {
+export interface Ville {
   slug: string
   nom: string
   displayName: string

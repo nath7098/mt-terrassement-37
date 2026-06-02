@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { villes, type Ville } from '~/data/villes'
 
 const PHONE_INTL = '+33764467709'

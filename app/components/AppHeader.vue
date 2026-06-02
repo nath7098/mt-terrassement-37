@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 const route = useRoute()
 const mobileOpen = ref(false)
 

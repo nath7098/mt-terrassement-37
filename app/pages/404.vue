@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 useSeoMeta({
   title: 'Page introuvable (404) — MT Terrassement 37',
   description: 'La page que vous cherchez n\'existe pas. Retournez à l\'accueil ou contactez MT Terrassement 37 au 07 64 46 77 09.'

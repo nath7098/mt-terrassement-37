@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { villeList } from '~/data/villes'
 
 const SITE_URL = 'https://mt-terrassement37.fr'

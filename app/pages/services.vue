@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({

@@ -1,4 +1,4 @@
-﻿const villeSlugs = [
+const villeSlugs = [
   'azay-le-rideau', 'blois', 'bourgueil', 'chateau-la-valliere', 'chateaurenault',
   'chatellerault', 'chinon', 'descartes', 'fondettes', 'joue-les-tours',
   'la-ville-aux-dames', 'langeais', 'loches', 'loudun', 'montlouis-sur-loire',
