@@ -180,7 +180,7 @@ const faq = [
               <span style="color: #D4884D">en Indre-et-Loire</span>
             </h1>
             <p class="text-xl text-blue-100 mb-8 leading-relaxed">
-              MT 37 Terrassement réalise tous vos travaux d'excavation, nivellement et remblaiement dans <strong>tout l'Indre-et-Loire (37)</strong> — chaque commune du département. Devis gratuit, intervention rapide.
+              MT 37 Terrassement réalise tous vos travaux d'excavation, nivellement, remblaiement et démolition dans <strong>tout l'Indre-et-Loire (37)</strong> — chaque commune du département. Devis gratuit, intervention rapide.
             </p>
             <div class="flex flex-wrap gap-3">
               <a
@@ -226,7 +226,7 @@ const faq = [
       <div class="max-w-6xl mx-auto px-4">
         <div class="text-center mb-10">
           <h2 class="text-3xl font-bold text-stone-900 mb-3">
-            Nos prestations de terrassement
+            Nos prestations
           </h2>
           <p class="text-stone-600 max-w-xl mx-auto">
             Des travaux de terrassement réalisés avec soin et expertise par une équipe locale en Indre-et-Loire.
