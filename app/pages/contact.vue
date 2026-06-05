@@ -75,6 +75,7 @@ const prestations = [
   'Terrassement général',
   'Excavation',
   'Nivellement & remblaiement',
+  'Démolition intérieure & extérieure',
   'Autre'
 ]
 

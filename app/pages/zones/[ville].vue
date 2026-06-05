@@ -262,6 +262,13 @@ useHead({
                   />
                   Remblaiement & compactage
                 </li>
+                <li class="flex items-center gap-2 text-sm text-stone-700">
+                  <UIcon
+                    name="i-lucide-check"
+                    style="color: #2D6EA4"
+                  />
+                  Démolition intérieure & extérieure
+                </li>
               </ul>
             </div>
 

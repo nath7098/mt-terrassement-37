@@ -125,6 +125,14 @@ const services = [
     color: '#B05A00',
     anchor: '#nivellement',
     img: '/images/remblaiement.png'
+  },
+  {
+    icon: 'i-lucide-hammer',
+    title: 'Démolition intérieure & extérieure',
+    desc: 'Abattage de cloisons placo, murs parpaings, dalles béton, murets, annexes. Gravats évacués.',
+    color: '#7C3AED',
+    anchor: '#demolition',
+    img: '/images/terrassement.png'
   }
 ]
 

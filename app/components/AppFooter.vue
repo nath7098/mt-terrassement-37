@@ -117,6 +117,13 @@ const year = new Date().getFullYear()
               />
               Nivellement & remblaiement
             </li>
+            <li class="flex items-start gap-2">
+              <UIcon
+                name="i-lucide-hammer"
+                class="flex-shrink-0 mt-0.5"
+              />
+              Démolition intérieure & extérieure
+            </li>
             <li class="flex items-start gap-2 pt-2">
               <UIcon
                 name="i-lucide-map-pin"

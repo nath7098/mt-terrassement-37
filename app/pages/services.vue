@@ -2,10 +2,10 @@
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'Nos services — Terrassement, Excavation & Nivellement | MT 37 Terrassement',
-  description: 'MT 37 Terrassement réalise vos travaux de terrassement général, excavation et nivellement en Indre-et-Loire. Découvrez nos prestations pour particuliers et professionnels.',
-  ogTitle: 'Services de terrassement — MT 37 Terrassement',
-  ogDescription: 'Terrassement général, excavation, nivellement & remblaiement en Indre-et-Loire. Devis gratuit.',
+  title: 'Nos services — Terrassement, Excavation, Nivellement & Démolition | MT 37 Terrassement',
+  description: 'MT 37 Terrassement réalise vos travaux de terrassement général, excavation, nivellement et démolition intérieure/extérieure en Indre-et-Loire. Devis gratuit.',
+  ogTitle: 'Services — MT 37 Terrassement',
+  ogDescription: 'Terrassement, excavation, nivellement & démolition (placo, parpaings, murs) en Indre-et-Loire. Devis gratuit.',
   ogType: 'website',
   ogUrl: `${SITE_URL}/services`,
   ogImage: `${SITE_URL}/og-default.jpg`,
@@ -68,6 +68,17 @@ useHead({
               'areaServed': 'Indre-et-Loire',
               'serviceType': 'Nivellement'
             }
+          },
+          {
+            '@type': 'ListItem', 'position': 4,
+            'item': {
+              '@type': 'Service',
+              'name': 'Démolition intérieure & extérieure',
+              'description': 'Démolition de cloisons en placo, murs en parpaings, dalles, murets, annexes et petites constructions. Évacuation des gravats incluse.',
+              'provider': { '@type': 'LocalBusiness', 'name': 'MT 37 Terrassement', 'telephone': '+33630996887' },
+              'areaServed': 'Indre-et-Loire',
+              'serviceType': 'Démolition'
+            }
           }
         ]
       })
@@ -123,6 +134,22 @@ const services = [
       'Comblement de puits et fosses',
       'Préparation de plateformes stabilisées'
     ]
+  },
+  {
+    icon: 'i-lucide-hammer',
+    title: 'Démolition intérieure & extérieure',
+    slug: 'demolition',
+    color: '#7C3AED',
+    img: '/images/terrassement.png',
+    intro: 'MT 37 Terrassement réalise tous vos travaux de démolition, du petit abattage de cloisons intérieures à la démolition complète d\'annexes et de constructions extérieures.',
+    details: [
+      'Abattage de cloisons en placo / carreaux de plâtre',
+      'Démolition de murs en parpaings et briques',
+      'Démolition de dalles béton et chapes',
+      'Destruction de murets, clôtures et escaliers',
+      'Démolition d\'annexes, garages et abris de jardin',
+      'Évacuation et tri des gravats'
+    ]
   }
 ]
 
@@ -142,6 +169,10 @@ const faqs = [
   {
     question: 'Intervenez-vous hors d\'Indre-et-Loire ?',
     answer: 'Oui, nous intervenons également dans les départements limitrophes : Maine-et-Loire (49), Loir-et-Cher (41) et Vienne (86) pour les chantiers proches de la frontière. Consultez notre page Zones pour la liste complète des communes desservies.'
+  },
+  {
+    question: 'Réalisez-vous des démolitions intérieures (cloisons, parpaings) ?',
+    answer: 'Oui. MT 37 Terrassement intervient pour l\'abattage de cloisons en placo, la démolition de murs en parpaings ou briques, la destruction de dalles béton, de murets et d\'annexes extérieures. L\'évacuation des gravats est incluse dans la prestation.'
   }
 ]
 
