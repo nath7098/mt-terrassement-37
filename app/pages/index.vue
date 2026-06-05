@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import { villes, type Ville } from '~/data/villes'
 
-const PHONE_INTL = '+33764467709'
+const PHONE_INTL = '+33630996887'
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'MT Terrassement 37 — Terrassement, Excavation & Nivellement en Indre-et-Loire',
-  description: 'Entreprise de terrassement professionnelle en Indre-et-Loire (37). Terrassement général, excavation, nivellement & remblaiement à Tours et dans tout le département.',
-  ogTitle: 'MT Terrassement 37 — Terrassement en Indre-et-Loire',
-  ogDescription: 'Excavation, nivellement, remblaiement à Tours et dans tout le 37. Devis gratuit — 07 64 46 77 09.',
+  title: 'MT 37 Terrassement — Terrassement, Excavation & Nivellement en Indre-et-Loire',
+  description: 'Entreprise de terrassement professionnelle en Indre-et-Loire (37). Terrassement général, excavation, nivellement & remblaiement dans tout le département 37. Devis gratuit — 06 30 99 68 87.',
+  ogTitle: 'MT 37 Terrassement — Terrassement en Indre-et-Loire',
+  ogDescription: 'Excavation, nivellement, remblaiement dans tout le 37 — chaque commune d\'Indre-et-Loire. Devis gratuit — 06 30 99 68 87.',
   ogType: 'website',
   ogUrl: SITE_URL,
   ogImage: `${SITE_URL}/og-default.jpg`,
   twitterCard: 'summary_large_image',
-  twitterTitle: 'MT Terrassement 37 — Terrassement en Indre-et-Loire',
+  twitterTitle: 'MT 37 Terrassement — Terrassement en Indre-et-Loire',
   twitterDescription: 'Excavation, nivellement, remblaiement à Tours et dans tout le 37. Devis gratuit.',
   twitterImage: `${SITE_URL}/og-default.jpg`
 })
@@ -26,7 +26,7 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
-        'name': 'MT Terrassement 37',
+        'name': 'MT 37 Terrassement',
         'description': 'Entreprise de terrassement en Indre-et-Loire. Excavation, nivellement, remblaiement.',
         'url': SITE_URL,
         'telephone': PHONE_INTL,
@@ -42,9 +42,9 @@ useHead({
           'latitude': 47.4019,
           'longitude': 0.6031
         },
-        'serviceArea': { '@type': 'State', 'name': 'Indre-et-Loire' },
-        'areaServed': 'Indre-et-Loire',
-        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt'],
+        'serviceArea': { '@type': 'AdministrativeArea', 'name': 'Indre-et-Loire', 'description': 'Tout le département 37, chaque commune' },
+        'areaServed': 'Indre-et-Loire (37) — tout le département',
+        'sameAs': ['https://share.google/NtX4H2KlUJb0We28G'],
         'knowsAbout': ['Terrassement', 'Excavation', 'Nivellement', 'Remblaiement'],
         'priceRange': '€€'
       })
@@ -60,7 +60,7 @@ useHead({
             'name': 'Combien coûte un terrassement en Indre-et-Loire ?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Le coût d\'un terrassement dépend de la superficie, du type de sol et de la complexité des travaux. MT Terrassement 37 propose des devis gratuits personnalisés sous 24h. Contactez-nous au 07 64 46 77 09 pour une estimation précise.'
+              'text': 'Le coût d\'un terrassement dépend de la superficie, du type de sol et de la complexité des travaux. MT 37 Terrassement propose des devis gratuits personnalisés sous 24h. Contactez-nous au 06 30 99 68 87 pour une estimation précise.'
             }
           },
           {
@@ -68,7 +68,7 @@ useHead({
             'name': 'Quelles zones d\'intervention couvrez-vous ?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'MT Terrassement 37 intervient dans tout l\'Indre-et-Loire (37) ainsi que dans les départements limitrophes (Loir-et-Cher, Vienne, Maine-et-Loire). Nous couvrons notamment Tours, Joué-lès-Tours, Fondettes, Chinon, Loches, Saumur et leurs environs.'
+              'text': 'MT 37 Terrassement intervient dans tout l\'Indre-et-Loire (37) — chaque commune du département, des grandes villes aux petits villages — ainsi que dans les départements limitrophes (Loir-et-Cher, Vienne, Maine-et-Loire).'
             }
           },
           {
@@ -84,7 +84,7 @@ useHead({
             'name': 'Intervenez-vous pour les particuliers et les professionnels ?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Oui, MT Terrassement 37 intervient pour les particuliers (construction de maison, piscine, aménagement de jardin) comme pour les professionnels du BTP (fondations, viabilisation, plateformes industrielles).'
+              'text': 'Oui, MT 37 Terrassement intervient pour les particuliers (construction de maison, piscine, aménagement de jardin) comme pour les professionnels du BTP (fondations, viabilisation, plateformes industrielles).'
             }
           },
           {
@@ -92,7 +92,7 @@ useHead({
             'name': 'Comment obtenir un devis de terrassement ?',
             'acceptedAnswer': {
               '@type': 'Answer',
-              'text': 'Vous pouvez nous contacter par téléphone au 07 64 46 77 09 ou via notre formulaire de contact en ligne. Nous nous engageons à répondre sous 24h ouvrées avec un devis gratuit et sans engagement.'
+              'text': 'Vous pouvez nous contacter par téléphone au 06 30 99 68 87 ou via notre formulaire de contact en ligne. Nous nous engageons à répondre sous 24h ouvrées avec un devis gratuit et sans engagement.'
             }
           }
         ]
@@ -135,11 +135,11 @@ const featuredVilles = featuredVilleSlugs.map(slug => villes[slug]).filter((v): 
 const faq = [
   {
     q: 'Combien coûte un terrassement en Indre-et-Loire ?',
-    a: 'Le coût dépend de la superficie, du type de sol et de la complexité. MT Terrassement 37 propose des devis gratuits personnalisés sous 24h. Appelez le 07 64 46 77 09 pour une estimation.'
+    a: 'Le coût dépend de la superficie, du type de sol et de la complexité. MT 37 Terrassement propose des devis gratuits personnalisés sous 24h. Appelez le 06 30 99 68 87 pour une estimation.'
   },
   {
     q: 'Quelles zones d\'intervention couvrez-vous ?',
-    a: 'Tout l\'Indre-et-Loire (37) et les départements limitrophes : Tours, Joué-lès-Tours, Fondettes, Chinon, Loches, Saumur, Blois, Vendôme et environs.'
+    a: 'Tout l\'Indre-et-Loire (37) — chaque commune du département — ainsi que les départements limitrophes : Loir-et-Cher, Vienne, Maine-et-Loire. Appelez-nous pour confirmer votre secteur.'
   },
   {
     q: 'Intervenez-vous pour les particuliers et les professionnels ?',
@@ -147,7 +147,7 @@ const faq = [
   },
   {
     q: 'Comment obtenir un devis de terrassement ?',
-    a: 'Par téléphone au 07 64 46 77 09 ou via notre formulaire de contact. Réponse garantie sous 24h ouvrées, devis gratuit sans engagement.'
+    a: 'Par téléphone au 06 30 99 68 87 ou via notre formulaire de contact. Réponse garantie sous 24h ouvrées, devis gratuit sans engagement.'
   }
 ]
 </script>
@@ -172,16 +172,16 @@ const faq = [
               <span style="color: #D4884D">en Indre-et-Loire</span>
             </h1>
             <p class="text-xl text-blue-100 mb-8 leading-relaxed">
-              MT Terrassement 37 réalise tous vos travaux d'excavation, nivellement et remblaiement à Tours et dans l'ensemble du département 37. Devis gratuit, intervention rapide.
+              MT 37 Terrassement réalise tous vos travaux d'excavation, nivellement et remblaiement dans <strong>tout l'Indre-et-Loire (37)</strong> — chaque commune du département. Devis gratuit, intervention rapide.
             </p>
             <div class="flex flex-wrap gap-3">
               <a
-                href="tel:+33764467709"
+                href="tel:+33630996887"
                 class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-opacity hover:opacity-90"
                 style="background-color: #D4884D"
               >
                 <UIcon name="i-lucide-phone" />
-                07 64 46 77 09
+                06 30 99 68 87
               </a>
               <UButton
                 to="/contact"
@@ -204,7 +204,7 @@ const faq = [
           <div class="hidden md:block">
             <AppImage
               src="/images/terrassement.png"
-              alt="Chantier de terrassement en Indre-et-Loire — MT Terrassement 37"
+              alt="Chantier de terrassement en Indre-et-Loire — MT 37 Terrassement"
               aspect-ratio="4/3"
               :rounded="true"
             />
@@ -233,7 +233,7 @@ const faq = [
           >
             <AppImage
               :src="s.img"
-              :alt="`${s.title} en Indre-et-Loire — MT Terrassement 37`"
+              :alt="`${s.title} en Indre-et-Loire — MT 37 Terrassement`"
               aspect-ratio="16/9"
             />
             <div class="p-6">
@@ -268,7 +268,7 @@ const faq = [
             Zones d'intervention
           </h2>
           <p class="text-stone-600 max-w-xl mx-auto">
-            Nous intervenons à Tours et dans tout l'Indre-et-Loire, ainsi que dans les départements limitrophes.
+            Nous intervenons dans <strong>toute l'Indre-et-Loire (37)</strong> — chaque commune du département — ainsi que dans les départements limitrophes.
           </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
@@ -309,12 +309,12 @@ const faq = [
             </p>
             <div class="flex flex-wrap gap-3">
               <a
-                href="tel:+33764467709"
+                href="tel:+33630996887"
                 class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-sm text-white"
                 style="background-color: #1B3A6B"
               >
                 <UIcon name="i-lucide-phone" />
-                07 64 46 77 09
+                06 30 99 68 87
               </a>
               <UButton
                 to="/contact"
@@ -337,7 +337,7 @@ const faq = [
             </p>
             <div class="flex flex-wrap gap-3">
               <UButton
-                to="https://share.google/QKpfCyuEupbTsyRvt"
+                to="https://share.google/NtX4H2KlUJb0We28G"
                 target="_blank"
                 rel="noopener"
                 label="Voir nos avis Google"

@@ -46,7 +46,7 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://mt-terrassement37.fr',
-    name: 'MT Terrassement 37',
+    name: 'MT 37 Terrassement',
     description: 'Entreprise de terrassement en Indre-et-Loire (37). Excavation, nivellement, remblaiement à Tours et dans tout le département.',
     defaultLocale: 'fr'
   },

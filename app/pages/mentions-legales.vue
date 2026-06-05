@@ -2,8 +2,8 @@
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'Mentions légales — MT Terrassement 37',
-  description: 'Mentions légales du site MT Terrassement 37, entreprise de terrassement en Indre-et-Loire.',
+  title: 'Mentions légales — MT 37 Terrassement',
+  description: 'Mentions légales du site MT 37 Terrassement, entreprise de terrassement en Indre-et-Loire.',
   robots: 'noindex'
 })
 useHead({
@@ -49,12 +49,12 @@ useHead({
           Éditeur du site
         </h2>
         <p class="text-stone-700">
-          <strong>MT Terrassement 37</strong><br>
+          <strong>MT 37 Terrassement</strong><br>
           24 rue des Rabatteries, 37230 Fondettes<br>
           Téléphone : <a
-            href="tel:+33764467709"
+            href="tel:+33630996887"
             class="text-blue-700 hover:underline"
-          >07 64 46 77 09</a><br>
+          >06 30 99 68 87</a><br>
           Site web : <a
             href="https://mt-terrassement37.fr"
             class="text-blue-700 hover:underline"
@@ -77,7 +77,7 @@ useHead({
           Propriété intellectuelle
         </h2>
         <p class="text-stone-700">
-          L'ensemble du contenu de ce site (textes, images, structure) est la propriété exclusive de MT Terrassement 37. Toute reproduction, même partielle, est interdite sans autorisation préalable.
+          L'ensemble du contenu de ce site (textes, images, structure) est la propriété exclusive de MT 37 Terrassement. Toute reproduction, même partielle, est interdite sans autorisation préalable.
         </p>
       </section>
 

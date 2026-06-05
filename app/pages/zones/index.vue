@@ -4,16 +4,16 @@ import { villeList } from '~/data/villes'
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'Zones d\'intervention — Terrassement en Indre-et-Loire | MT Terrassement 37',
-  description: 'MT Terrassement 37 intervient à Tours, Joué-lès-Tours, Chinon, Loches et dans toutes les communes d\'Indre-et-Loire. Consultez notre zone de couverture complète.',
-  ogTitle: 'Zones d\'intervention — MT Terrassement 37',
-  ogDescription: 'Terrassement, excavation et nivellement dans tout l\'Indre-et-Loire et les départements limitrophes.',
+  title: 'Zones d\'intervention — Terrassement en Indre-et-Loire | MT 37 Terrassement',
+  description: 'MT 37 Terrassement intervient dans tout l\'Indre-et-Loire (37) : Tours, Joué-lès-Tours, Chinon, Loches, Amboise, Blois et toutes les communes du département. Devis gratuit.',
+  ogTitle: 'Zones d\'intervention — MT 37 Terrassement',
+  ogDescription: 'Terrassement, excavation et nivellement dans tout l\'Indre-et-Loire (37) et les départements limitrophes.',
   ogType: 'website',
   ogUrl: `${SITE_URL}/zones`,
   ogImage: `${SITE_URL}/og-default.jpg`,
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Zones d\'intervention — MT Terrassement 37',
-  twitterDescription: 'Terrassement dans tout l\'Indre-et-Loire et environs. 20 communes desservies.',
+  twitterTitle: 'Zones d\'intervention — MT 37 Terrassement',
+  twitterDescription: 'Terrassement dans tout l\'Indre-et-Loire (37) et environs. Intervention sur toutes les communes du département.',
   twitterImage: `${SITE_URL}/og-default.jpg`
 })
 
@@ -55,7 +55,7 @@ useHead({
           Zones<br><span style="color: #D4884D">d'intervention</span>
         </h1>
         <p class="text-blue-100 text-lg max-w-2xl">
-          Nous intervenons dans {{ villeList.length }} communes en Indre-et-Loire et dans les départements limitrophes.
+          Nous intervenons dans <strong>toute l'Indre-et-Loire (37)</strong> — chaque commune du département, des grandes villes aux petits villages — ainsi que dans les départements limitrophes.
         </p>
       </div>
     </section>
@@ -88,19 +88,19 @@ useHead({
     <section class="py-12 section-earth">
       <div class="max-w-4xl mx-auto px-4 text-center">
         <h2 class="text-2xl font-bold text-stone-900 mb-4">
-          Votre commune n'est pas listée ?
+          Vous êtes en Indre-et-Loire ?
         </h2>
         <p class="text-stone-600 mb-6">
-          Contactez-nous, nous intervenons également dans de nombreuses autres communes d'Indre-et-Loire et alentours.
+          MT 37 Terrassement se déplace dans <strong>tout le département 37</strong>, de Bourgueil à Loches, de Château-la-Vallière à Descartes. Aucune commune n'est trop éloignée — appelez-nous.
         </p>
         <div class="flex flex-wrap justify-center gap-3">
           <a
-            href="tel:+33764467709"
+            href="tel:+33630996887"
             class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white"
             style="background-color: #1B3A6B"
           >
             <UIcon name="i-lucide-phone" />
-            07 64 46 77 09
+            06 30 99 68 87
           </a>
           <UButton
             to="/contact"

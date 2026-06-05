@@ -2,16 +2,16 @@
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'Contact & Devis gratuit — MT Terrassement 37 | Indre-et-Loire',
-  description: 'Contactez MT Terrassement 37 pour un devis gratuit. Terrassement, excavation, nivellement en Indre-et-Loire. Appelez le 07 64 46 77 09 ou utilisez notre formulaire.',
-  ogTitle: 'Contact — MT Terrassement 37',
-  ogDescription: 'Devis gratuit pour vos travaux de terrassement en Indre-et-Loire. 07 64 46 77 09.',
+  title: 'Contact & Devis gratuit — MT 37 Terrassement | Indre-et-Loire',
+  description: 'Contactez MT 37 Terrassement pour un devis gratuit. Terrassement, excavation, nivellement en Indre-et-Loire. Appelez le 06 30 99 68 87 ou utilisez notre formulaire.',
+  ogTitle: 'Contact — MT 37 Terrassement',
+  ogDescription: 'Devis gratuit pour vos travaux de terrassement en Indre-et-Loire. 06 30 99 68 87.',
   ogType: 'website',
   ogUrl: `${SITE_URL}/contact`,
   ogImage: `${SITE_URL}/og-default.jpg`,
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Contact — MT Terrassement 37',
-  twitterDescription: 'Devis gratuit pour vos travaux de terrassement en Indre-et-Loire. 07 64 46 77 09.',
+  twitterTitle: 'Contact — MT 37 Terrassement',
+  twitterDescription: 'Devis gratuit pour vos travaux de terrassement en Indre-et-Loire. 06 30 99 68 87.',
   twitterImage: `${SITE_URL}/og-default.jpg`
 })
 useHead({
@@ -22,8 +22,8 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
-        'name': 'MT Terrassement 37',
-        'telephone': '+33764467709',
+        'name': 'MT 37 Terrassement',
+        'telephone': '+33630996887',
         'address': {
           '@type': 'PostalAddress',
           'streetAddress': '24 rue des Rabatteries',
@@ -37,7 +37,7 @@ useHead({
           'longitude': 0.6031
         },
         'url': SITE_URL,
-        'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt'],
+        'sameAs': ['https://share.google/NtX4H2KlUJb0We28G'],
         'areaServed': 'Indre-et-Loire',
         'priceRange': '€€'
       })
@@ -126,7 +126,7 @@ async function handleSubmit() {
     )
     submitted.value = true
   } catch {
-    sendError.value = 'Une erreur est survenue lors de l\'envoi. Veuillez réessayer ou nous appeler au 07 64 46 77 09.'
+    sendError.value = 'Une erreur est survenue lors de l\'envoi. Veuillez réessayer ou nous appeler au 06 30 99 68 87.'
   } finally {
     loading.value = false
   }
@@ -353,9 +353,9 @@ async function handleSubmit() {
                 Nous appeler directement
               </h3>
               <a
-                href="tel:+33764467709"
+                href="tel:+33630996887"
                 class="text-2xl font-bold hover:underline block mb-1"
-              >07 64 46 77 09</a>
+              >06 30 99 68 87</a>
               <p class="text-blue-200 text-xs">
                 Lundi – Vendredi, réponse rapide
               </p>
@@ -410,7 +410,7 @@ async function handleSubmit() {
                 Consultez les avis de nos clients sur Google Business.
               </p>
               <UButton
-                to="https://share.google/QKpfCyuEupbTsyRvt"
+                to="https://share.google/NtX4H2KlUJb0We28G"
                 target="_blank"
                 rel="noopener"
                 label="Voir nos avis Google"

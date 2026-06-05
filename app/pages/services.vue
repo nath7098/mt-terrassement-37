@@ -2,15 +2,15 @@
 const SITE_URL = 'https://mt-terrassement37.fr'
 
 useSeoMeta({
-  title: 'Nos services — Terrassement, Excavation & Nivellement | MT Terrassement 37',
-  description: 'MT Terrassement 37 réalise vos travaux de terrassement général, excavation et nivellement en Indre-et-Loire. Découvrez nos prestations pour particuliers et professionnels.',
-  ogTitle: 'Services de terrassement — MT Terrassement 37',
+  title: 'Nos services — Terrassement, Excavation & Nivellement | MT 37 Terrassement',
+  description: 'MT 37 Terrassement réalise vos travaux de terrassement général, excavation et nivellement en Indre-et-Loire. Découvrez nos prestations pour particuliers et professionnels.',
+  ogTitle: 'Services de terrassement — MT 37 Terrassement',
   ogDescription: 'Terrassement général, excavation, nivellement & remblaiement en Indre-et-Loire. Devis gratuit.',
   ogType: 'website',
   ogUrl: `${SITE_URL}/services`,
   ogImage: `${SITE_URL}/og-default.jpg`,
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Services — MT Terrassement 37',
+  twitterTitle: 'Services — MT 37 Terrassement',
   twitterDescription: 'Terrassement général, excavation, nivellement & remblaiement en Indre-et-Loire.',
   twitterImage: `${SITE_URL}/og-default.jpg`
 })
@@ -34,7 +34,7 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'ItemList',
-        'name': 'Services de terrassement — MT Terrassement 37',
+        'name': 'Services de terrassement — MT 37 Terrassement',
         'itemListElement': [
           {
             '@type': 'ListItem', 'position': 1,
@@ -42,7 +42,7 @@ useHead({
               '@type': 'Service',
               'name': 'Terrassement général',
               'description': 'Préparation complète des terrains : débroussaillage, décapage, mouvements de terres, compactage.',
-              'provider': { '@type': 'LocalBusiness', 'name': 'MT Terrassement 37', 'telephone': '+33764467709' },
+              'provider': { '@type': 'LocalBusiness', 'name': 'MT 37 Terrassement', 'telephone': '+33630996887' },
               'areaServed': 'Indre-et-Loire',
               'serviceType': 'Terrassement général'
             }
@@ -53,7 +53,7 @@ useHead({
               '@type': 'Service',
               'name': 'Excavation',
               'description': 'Fouilles en rigole, en grande masse, tranchées réseaux, terrassement piscines et garages enterrés.',
-              'provider': { '@type': 'LocalBusiness', 'name': 'MT Terrassement 37', 'telephone': '+33764467709' },
+              'provider': { '@type': 'LocalBusiness', 'name': 'MT 37 Terrassement', 'telephone': '+33630996887' },
               'areaServed': 'Indre-et-Loire',
               'serviceType': 'Excavation'
             }
@@ -64,7 +64,7 @@ useHead({
               '@type': 'Service',
               'name': 'Nivellement & remblaiement',
               'description': 'Mise à niveau de terrain, remblaiement de fouilles, création de talus, préparation de plateformes stabilisées.',
-              'provider': { '@type': 'LocalBusiness', 'name': 'MT Terrassement 37', 'telephone': '+33764467709' },
+              'provider': { '@type': 'LocalBusiness', 'name': 'MT 37 Terrassement', 'telephone': '+33630996887' },
               'areaServed': 'Indre-et-Loire',
               'serviceType': 'Nivellement'
             }
@@ -133,7 +133,7 @@ const faqs = [
   },
   {
     question: 'Pour quels projets réalisez-vous du terrassement ?',
-    answer: 'MT Terrassement 37 intervient pour tous les projets : construction de maison individuelle, piscine, garage enterré, voirie privée, aménagement paysager, travaux agricoles, chantiers BTP professionnels.'
+    answer: 'MT 37 Terrassement intervient pour tous les projets : construction de maison individuelle, piscine, garage enterré, voirie privée, aménagement paysager, travaux agricoles, chantiers BTP professionnels.'
   },
   {
     question: 'Quel est le délai pour démarrer un chantier de terrassement ?',
@@ -216,7 +216,7 @@ useHead({
               </p>
               <AppImage
                 :src="s.img"
-                :alt="`${s.title} par MT Terrassement 37 en Indre-et-Loire`"
+                :alt="`${s.title} par MT 37 Terrassement en Indre-et-Loire`"
                 aspect-ratio="16/9"
                 :rounded="true"
                 class="mb-6"
@@ -291,12 +291,12 @@ useHead({
         </p>
         <div class="flex flex-wrap justify-center gap-3">
           <a
-            href="tel:+33764467709"
+            href="tel:+33630996887"
             class="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white"
             style="background-color: #1B3A6B"
           >
             <UIcon name="i-lucide-phone" />
-            07 64 46 77 09
+            06 30 99 68 87
           </a>
           <UButton
             to="/contact"

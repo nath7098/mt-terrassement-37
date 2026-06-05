@@ -17,7 +17,7 @@ const year = new Date().getFullYear()
                 class="text-white"
               />
             </div>
-            <span class="font-bold text-white">MT Terrassement 37</span>
+            <span class="font-bold text-white">MT 37 Terrassement</span>
           </div>
           <p class="text-blue-100 text-sm leading-relaxed mb-4">
             Entreprise de terrassement professionnelle en Indre-et-Loire. Excavation, nivellement, remblaiement dans tout le département 37.
@@ -29,9 +29,9 @@ const year = new Date().getFullYear()
                 class="flex-shrink-0 mt-0.5"
               />
               <a
-                href="tel:+33764467709"
+                href="tel:+33630996887"
                 class="hover:text-white transition-colors font-semibold"
-              >07 64 46 77 09</a>
+              >06 30 99 68 87</a>
             </li>
             <li class="flex items-start gap-2">
               <UIcon
@@ -42,7 +42,7 @@ const year = new Date().getFullYear()
             </li>
           </ul>
           <UButton
-            to="https://share.google/QKpfCyuEupbTsyRvt"
+            to="https://share.google/NtX4H2KlUJb0We28G"
             target="_blank"
             rel="noopener"
             size="xs"
@@ -129,7 +129,7 @@ const year = new Date().getFullYear()
       </div>
 
       <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-blue-200">
-        <p>© {{ year }} MT Terrassement 37 — 24 rue des Rabatteries, 37230 Fondettes</p>
+        <p>© {{ year }} MT 37 Terrassement — 24 rue des Rabatteries, 37230 Fondettes</p>
         <NuxtLink
           to="/mentions-legales"
           class="hover:text-white transition-colors"

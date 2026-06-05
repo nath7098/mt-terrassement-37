@@ -13,7 +13,7 @@ const nearbyVilles = villeList.filter(v => ville.villesProches.includes(v.slug))
 
 const SITE_URL = 'https://mt-terrassement37.fr'
 const canonicalUrl = `${SITE_URL}/zones/${slug}`
-const title = `Terrassement ${ville.nom} (${ville.codePostal}) — MT Terrassement 37 | Excavation & Nivellement`
+const title = `Terrassement ${ville.nom} (${ville.codePostal}) — MT 37 Terrassement | Excavation & Nivellement`
 const description = ville.metaDescription
 
 useSeoMeta({
@@ -42,8 +42,8 @@ useHead({
         'description': `Services de terrassement, excavation et nivellement à ${ville.nom} (${ville.codePostal})`,
         'provider': {
           '@type': 'LocalBusiness',
-          'name': 'MT Terrassement 37',
-          'telephone': '+33764467709',
+          'name': 'MT 37 Terrassement',
+          'telephone': '+33630996887',
           'address': {
             '@type': 'PostalAddress',
             'streetAddress': '24 rue des Rabatteries',
@@ -52,7 +52,7 @@ useHead({
             'addressCountry': 'FR'
           },
           'url': SITE_URL,
-          'sameAs': ['https://share.google/QKpfCyuEupbTsyRvt']
+          'sameAs': ['https://share.google/NtX4H2KlUJb0We28G']
         },
         'areaServed': {
           '@type': 'City',
@@ -126,12 +126,12 @@ useHead({
         </div>
         <div class="flex flex-wrap gap-3">
           <a
-            href="tel:+33764467709"
+            href="tel:+33630996887"
             class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-white text-sm"
             style="background-color: #D4884D"
           >
             <UIcon name="i-lucide-phone" />
-            07 64 46 77 09
+            06 30 99 68 87
           </a>
           <UButton
             to="/contact"
@@ -191,7 +191,7 @@ useHead({
 
             <AppImage
               src="/images/terrassement.png"
-              :alt="`Terrassement et excavation à ${ville.nom} par MT Terrassement 37`"
+              :alt="`Terrassement et excavation à ${ville.nom} par MT 37 Terrassement`"
               aspect-ratio="16/9"
               :rounded="true"
               class="mt-8 mb-2"
@@ -209,12 +209,12 @@ useHead({
               </p>
               <div class="flex flex-wrap gap-3">
                 <a
-                  href="tel:+33764467709"
+                  href="tel:+33630996887"
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm text-white"
                   style="background-color: #D4884D"
                 >
                   <UIcon name="i-lucide-phone" />
-                  07 64 46 77 09
+                  06 30 99 68 87
                 </a>
                 <UButton
                   to="/contact"
@@ -274,9 +274,9 @@ useHead({
                 Appelez-nous
               </h3>
               <a
-                href="tel:+33764467709"
+                href="tel:+33630996887"
                 class="text-xl font-bold hover:underline block mb-1"
-              >07 64 46 77 09</a>
+              >06 30 99 68 87</a>
               <p class="text-blue-100 text-xs">
                 Lun–Ven, réponse rapide
               </p>
@@ -318,7 +318,7 @@ useHead({
                 Consultez les avis de nos clients sur Google Business.
               </p>
               <UButton
-                to="https://share.google/QKpfCyuEupbTsyRvt"
+                to="https://share.google/NtX4H2KlUJb0We28G"
                 target="_blank"
                 rel="noopener"
                 label="Voir les avis Google"

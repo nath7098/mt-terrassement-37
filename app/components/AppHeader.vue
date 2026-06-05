@@ -19,11 +19,11 @@ const nav = [
       >
         <img
           src="/nav_logo_terrassement.png"
-          alt="MT Terrassement 37"
+          alt="MT 37 Terrassement"
           class="h-14 w-auto"
         />
         <div>
-          <div class="font-bold text-stone-900 leading-tight text-sm">MT Terrassement 37</div>
+          <div class="font-bold text-stone-900 leading-tight text-sm">MT 37 Terrassement</div>
           <div class="text-xs text-stone-500">Indre-et-Loire</div>
         </div>
       </NuxtLink>
@@ -42,14 +42,14 @@ const nav = [
 
       <div class="hidden md:flex items-center gap-2">
         <a
-          href="tel:+33764467709"
+          href="tel:+33630996887"
           class="flex items-center gap-1.5 text-sm font-semibold px-3 py-2 rounded-lg border border-stone-200 text-stone-700 hover:bg-stone-50 transition-colors"
         >
           <UIcon
             name="i-lucide-phone"
             class="text-blue-700"
           />
-          07 64 46 77 09
+          06 30 99 68 87
         </a>
         <UButton
           to="/contact"
@@ -83,14 +83,14 @@ const nav = [
       </NuxtLink>
       <div class="pt-2 flex flex-col gap-2">
         <a
-          href="tel:+33764467709"
+          href="tel:+33630996887"
           class="flex items-center justify-center gap-2 py-2.5 rounded-lg border border-stone-200 text-stone-700 font-semibold text-sm"
         >
           <UIcon
             name="i-lucide-phone"
             style="color: #1B3A6B"
           />
-          07 64 46 77 09
+          06 30 99 68 87
         </a>
         <UButton
           to="/contact"
