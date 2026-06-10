@@ -1,4 +1,4 @@
-const villeSlugs = [
+﻿const villeSlugs = [
   'azay-le-rideau', 'blois', 'bourgueil', 'chateau-la-valliere', 'chateaurenault',
   'chatellerault', 'chinon', 'descartes', 'fondettes', 'joue-les-tours',
   'la-ville-aux-dames', 'langeais', 'loches', 'loudun', 'montlouis-sur-loire',
@@ -45,9 +45,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://mt-terrassement37.fr',
+    url: 'https://mt37terrassement.fr',
     name: 'MT 37 Terrassement',
-    description: 'Entreprise de terrassement en Indre-et-Loire (37). Excavation, nivellement, remblaiement à Tours et dans tout le département.',
+    description: 'Entreprise de terrassement en Indre-et-Loire (37). Excavation, nivellement, remblaiement Ã  Tours et dans tout le dÃ©partement.',
     defaultLocale: 'fr'
   },
 

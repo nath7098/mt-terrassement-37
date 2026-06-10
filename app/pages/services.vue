@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 
 useSeoMeta({
   title: 'Nos services — Terrassement, Excavation, Nivellement & Démolition | MT 37 Terrassement',

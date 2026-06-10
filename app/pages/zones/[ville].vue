@@ -11,7 +11,7 @@ if (!ville) {
 
 const nearbyVilles = villeList.filter(v => ville.villesProches.includes(v.slug))
 
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 const canonicalUrl = `${SITE_URL}/zones/${slug}`
 const title = `Terrassement ${ville.nom} (${ville.codePostal}) — MT 37 Terrassement | Excavation & Nivellement`
 const description = ville.metaDescription

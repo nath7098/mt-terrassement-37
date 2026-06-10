@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 
 useSeoMeta({
   title: 'Contact & Devis gratuit — MT 37 Terrassement | Indre-et-Loire',
@@ -121,7 +121,7 @@ async function handleSubmit() {
         address: form.address,
         prestation: form.prestation,
         message: form.message,
-        type_prestation: 'terrassement'
+        type_prestation: 'MT 37 Terrassement'
       },
       { publicKey: emailjsPublicKey }
     )

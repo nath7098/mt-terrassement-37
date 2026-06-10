@@ -2,7 +2,7 @@
 import { villes, type Ville } from '~/data/villes'
 
 const PHONE_INTL = '+33630996887'
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 
 useSeoMeta({
   title: 'MT 37 Terrassement — Terrassement, Excavation & Nivellement en Indre-et-Loire',

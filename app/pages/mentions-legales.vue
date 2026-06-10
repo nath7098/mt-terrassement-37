@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 
 useSeoMeta({
   title: 'Mentions légales — MT 37 Terrassement',
@@ -56,9 +56,9 @@ useHead({
             class="text-blue-700 hover:underline"
           >06 30 99 68 87</a><br>
           Site web : <a
-            href="https://mt-terrassement37.fr"
+            href="https://mt37terrassement.fr"
             class="text-blue-700 hover:underline"
-          >https://mt-terrassement37.fr</a><br>
+          >https://mt37terrassement.fr</a><br>
           Activité : Travaux de terrassement en Indre-et-Loire (37)
         </p>
       </section>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { villeList } from '~/data/villes'
 
-const SITE_URL = 'https://mt-terrassement37.fr'
+const SITE_URL = 'https://mt37terrassement.fr'
 
 useSeoMeta({
   title: 'Zones d\'intervention — Terrassement en Indre-et-Loire | MT 37 Terrassement',
